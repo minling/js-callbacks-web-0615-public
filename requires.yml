@@ -1,6 +1,8 @@
 # A list of javascript files required for the project, in dependency order
 javascripts:
   files:
-    - lib/fizzbuzz.js
+    - lib/01_speak.js
+    - lib/02_calculate.js
   specs:
-    - spec/fizzbuzz.spec.js
+    - spec/01_speak.spec.js
+    - spec/02_calculate.spec.js
