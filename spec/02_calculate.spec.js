@@ -27,7 +27,7 @@ describe('calculate', function() {
   });
 
   it('can multiply numbers given the correct callback', function(){
-    expect(calculate(2, 3, function(num1, num2){ return num1 * num2; }).toEqual(6));
+    expect(calculate(2, 3, function(num1, num2){ return num1 * num2; })).toEqual(6);
   });
 
 });
