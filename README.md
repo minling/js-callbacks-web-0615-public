@@ -28,7 +28,7 @@ printAndCallback("How are you?", five)
   << 5
 ```
 
-Or, you can pass the function directly into `printAndCallback`:
+Or, I can pass the function directly into `printAndCallback`:
 
 ```
 printAndCallback("I'm fine, thanks!", function(){ return 3; })
